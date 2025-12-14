@@ -25,13 +25,13 @@ function horaAtual(){
         s = '0' + s
     }
     if( h >= 5 && h < 12){
-        background.style.background= "url('./imagens/jonas-weckschmied--N_UwPdUs7E-unsplash.jpg') center center fixed no-repeat"
+        background.style.background= "url(./imagens/jonas-weckschmied--N_UwPdUs7E-unsplash.jpg) center center fixed no-repeat"
         background.style.backgroundSize = "cover"
     }if( h >= 12 && h < 18){
-        background.style.background = "url('./imagens/wendell-adriel-l-s-sevgogkK4FE-unsplash.jpg') center center fixed no-repeat"
+        background.style.background = "url(./imagens/wendell-adriel-l-s-sevgogkK4FE-unsplash.jpg) center center fixed no-repeat"
         background.style.backgroundSize = "cover"
     }if( h >= 18 || h < 5){
-        background.style.background = "url('./imagens/davide-sibilio-quOy9JPjEKs-unsplash.jpg') center center fixed no-repeat"
+        background.style.background = "url(./imagens/davide-sibilio-quOy9JPjEKs-unsplash.jpg) center center fixed no-repeat"
         background.style.backgroundSize = "cover"
     }
     hr.innerHTML =  h
